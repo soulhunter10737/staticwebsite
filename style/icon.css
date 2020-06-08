@@ -1,0 +1,21 @@
+.head-1 .svg-1 img,.head-2 .svg-2 img{
+    width: 40%;
+}
+.head-3 .svg-3 img{
+    width: 50%;
+}
+
+.footer-bottom-text img{
+    width: 2%;
+}
+
+footer .segment-one img{
+    width: 10%;
+}
+
+/* 
+@media (max-width: 300px){
+    footer .segment-one img{
+        width: 10%;
+    }   
+} */

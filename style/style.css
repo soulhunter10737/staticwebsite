@@ -1,0 +1,287 @@
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Chilanka', cursive; */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #f8f3eb70;
+}
+
+/* navbar  */
+
+.navbar {
+  background-color: #c3edea;
+  height: 60px;
+}
+
+
+.nav-item {
+  height: 100%;
+  margin: 0 12px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  background-color: #f8f3eb;
+  text-align: center;
+  color: #fc7e2f;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  background-color: #fc7e2f;
+}
+
+/* image-slider  */
+
+.carousel {
+  top: 60px;
+  height: 500px;
+}
+.carousel img {
+  max-width: 100%;
+  margin: auto;
+  height: 500px;
+}
+
+.carousel-indicators li {
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: #fc7e2f;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.carousel-control-next {
+  background-image: linear-gradient(to right, #f8f3eb, #f1c67f);
+}
+
+.carousel-control-prev {
+  background-image: linear-gradient(to right, #f1c67f, #f8f3eb);
+}
+
+/* first body  */
+
+label.start {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  font-family: "Chilanka", cursive;
+  font-size: 3rem;
+  color: #fc7e2f;
+}
+label.headingname {
+  background-color: #efee9d;
+  padding-top: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+}
+
+.first_desp {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-lg-4 {
+  text-align: center;
+  padding: 5px;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.head-1 strong,
+.head-2 strong,
+.head-3 strong {
+  font-family: "Chilanka", cursive;
+}
+
+.head-1 h1 {
+  color: #f25141;
+}
+
+.head-2 h1 {
+  color: #93c524;
+}
+
+.head-3 h1 {
+  color: #28a8e3;
+}
+
+.para-1 {
+  background-color: #f25141;
+  color: white;
+  border-radius: 10px;
+}
+.para-2 {
+  background-color: #93c524;
+  color: white;
+  border-radius: 10px;
+}
+.para-3 {
+  background-color: #28a8e3;
+  color: white;
+  border-radius: 10px;
+}
+
+/*  */
+
+.span_container {
+  margin-top: 50px;
+  padding: 25px 15px;
+}
+
+span.span-1 {
+  line-height: 2;
+  font-size: 3.5rem;
+  font-family: "Chilanka", cursive;
+  color: #fc7e2f;
+}
+
+span.span-2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  margin-left: 5px;
+  color: black;
+}
+
+.content .btn-1 {
+  padding: 15px 10px;
+  background-color: #c3edea;
+  text-decoration: none;
+  margin-left: 15px;
+  border-radius: 5px;
+  color: black;
+}
+
+/* parallax image  */
+
+.box-1 {
+  width: 100%;
+  background-image: url(../image/image/paralax-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+}
+
+/* quote box  */
+
+.quotebox {
+  background-image: url(../image/image/quoteimage.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  margin: 25px 0;
+  color: white;
+}
+
+.quotebox .quote_svg img {
+  background-color: yellow;
+  padding: 15px;
+  border-radius: 100%;
+  margin-top: 20px;
+}
+
+/* gallery  */
+
+.gallery {
+  background-image: url(../image/gallery/gallaeryback.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallerybox h1 {
+  font-family: "Chilanka", cursive;
+  color: #c3edea;
+  background-color: #f40552;
+  border-radius: 15px;
+}
+
+.galleryimage img {
+  height: 350px;
+  width: 100%;
+}
+
+/* footer  */
+
+.footer-top {
+  padding: 50px 0;
+  background-color: black;
+  color: white;
+}
+
+.segment-one h2 {
+  font-family: "Chilanka", cursive;
+  letter-spacing: 3px;
+}
+
+.segment-one a {
+  display: inline;
+  padding: 15px 20px;
+}
+
+.footer-bottom-text {
+  text-align: center;
+  background-color: #aa073b;
+  line-height: 60px;
+  margin-bottom: 0;
+  color: white;
+}
+
+/* media queries */
+
+@media (max-width: 990px) {
+  .navbar img{
+    width: 50%;
+  }
+}
+
+@media (max-width: 858px) {
+  .carousel img,
+  .carousel.pointer-event {
+    height: 300px;
+  }
+  .content .btn-1 {
+    padding: 10px 5px;
+    font-size: 1rem;
+  }
+  span.span-1 {
+    font-size: 2.5rem;
+  }
+  span.span-2 {
+    font-size: 1.5rem;
+  }
+  em {
+    font-size: 1rem;
+  }
+}
+
+
+@media (max-width: 570px) {
+  label.headingname {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .para-3 {
+    height: 13.5rem;
+  }
+}
